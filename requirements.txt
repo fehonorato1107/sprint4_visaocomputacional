@@ -1,0 +1,20 @@
+# --- PyTorch (CUDA 12.1) — versões alinhadas ---
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
+# --- Multimodal (Florence-2) ---
+transformers>=4.45,<=4.49.0
+accelerate>=0.34
+
+# --- OCR / Visão ---
+easyocr==1.7.1
+opencv-python==4.10.0.84
+pillow==10.4.0
+numpy==1.26.4
+
+# --- Métricas / Utilidades ---
+jiwer==3.0.4
+pandas==2.2.2
+tqdm==4.66.4

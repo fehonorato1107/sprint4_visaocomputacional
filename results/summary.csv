@@ -1,0 +1,4 @@
+approach,n,accuracy,mean_cer,mean_wer
+A_easyocr_baseline,30,0.0,0.633088345475732,1.0
+B_easyocr_preprocessado,30,1.0,0.0,0.0
+C_florence2_multimodal,30,0.0,1.0,1.0
